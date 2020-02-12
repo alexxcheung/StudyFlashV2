@@ -137,6 +137,7 @@
 		B86BA8F3236B30A3009A490A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B86BA8FA236ED2D2009A490A /* User+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		B86BA8FB236ED2D2009A490A /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B8D1CC9823F3F65A00E54E26 /* Study Flash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Study Flash.entitlements"; sourceTree = "<group>"; };
 		B8E037D023407D7B00990691 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
 		B8E037D22340870600990691 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B8E037D423408DB000990691 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -324,6 +325,7 @@
 		B6812EA22281DC290059ED27 /* Study Flash */ = {
 			isa = PBXGroup;
 			children = (
+				B8D1CC9823F3F65A00E54E26 /* Study Flash.entitlements */,
 				B6812EA32281DC290059ED27 /* AppDelegate.swift */,
 				1124A94B2296E44D0048946E /* Storyboard */,
 				B86BA8F5236ED159009A490A /* CoreData */,
@@ -675,6 +677,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Study Flash/Study Flash.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3M89YG2JX8;
 				INFOPLIST_FILE = "Study Flash/Info.plist";
@@ -694,6 +697,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Study Flash/Study Flash.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3M89YG2JX8;
 				INFOPLIST_FILE = "Study Flash/Info.plist";

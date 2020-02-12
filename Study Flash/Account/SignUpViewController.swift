@@ -111,8 +111,10 @@ class SignUpViewController: UIViewController {
     }
     
     func deleteUser() {
-        let firstUser = users.first!
-        persistenceManager.delete(firstUser)
+        if let firstUser = users.first {
+            persistenceManager.delete(firstUser)
+
+        }
         
         printUsers()
         
